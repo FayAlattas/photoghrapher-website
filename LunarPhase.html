@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Daily photos....">
+    <meta name="keywords"content="Photos , moon , Fullmoon , sky , clouds , books">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel ="icon" href="img/icon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+    <title>LunarPhase</title>
+    <!-- here to style the header of the welcome page
+  (logo and the representive text) -->
+    <style type = "text/css">
+    body{
+      background-image: url('img/bg.jpg');
+      background-size: cover;}
+    header{
+
+       height: 135px;
+      padding: 17px;
+      box-shadow: 0 0 5px #cccccc;
+      font-family: 'Fredoka', sans-serif ;
+    }
+    header li{
+        position:sticky;
+    display: inline;
+    height: 10vh;
+    padding-top:1px;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+
+    }
+    header nav {
+        position:sticky;
+      text-align: center;
+      position: relative;
+       top: -170px;
+    }
+
+    header li h3 {
+        position:sticky;
+    font-family: 'Lobster', cursive;;
+      position: relative;
+       top: -130px;
+       right:500px;}
+
+       header li h5 {
+           position:sticky;
+         position: relative;
+          top: -128px;
+          right:560px;
+          font-family: 'Fredoka', sans-serif;
+       }
+       header li img {
+           position:sticky;
+         width: 140px;
+         position: relative;
+          top: -20px;
+          right: -47px;
+
+       }
+       footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:120px;
+   width:100%;
+
+}
+    </style>
+  </head>
+  <body>
+
+    <header >  <!-- Adding the needed information for the website header -->
+      <ul>
+        <li>  <img  src="img/CAMERA.png" hight ="130" width="150" alt ="logo" /></li>
+        <li><h3>Taken By <span><br> Fay Alattas</span></h3></li>
+        <li><h5>Get ready! you will see some memories.</h5></li>
+        <nav>
+          <section>
+          <div id="navbar"><!-- here a list for all the website pages links  -->
+            <li><a    href = "WelcomePage.html">Home</a></li>
+          <li><a     href = "AboutUs.html">About us</a></li>
+          <li><a    href = "ContactUS.html">Contact us</a></li>
+          <li><a    href = "LunarPhase.html">Lunar Phase</a></li>
+        </div>
+        </nav>
+      </ul>
+    </header><!--end of the header   -->
+
+ <!-- here a div that have a text for some information about the page subject -->
+    <div class = "lunar">
+    <p>
+      <h4>The lunar phase or Moon phase </h4> <br>is the shape of the Moon's directly sunlit portion as viewed from Earth.<br>
+      The lunar phases gradually change over a synodic month (about 29.53 days)<br>
+      as the Moon's orbital positions around Earth and Earth around the Sun shift.
+     </p>
+   </div>
+
+<!--a class that have all the photo needed -->
+<div class = "gallery">
+  <img src ="img/moon1.jpg" alt="photo-1" class="gallery__photo gallery__photo--1">
+  <img src ="img/moon3.jpg" alt="photo-3" class="gallery__photo gallery__photo--3">
+  <img src ="img/moon5.jpg" alt="photo-5" class="gallery__photo gallery__photo--5">
+  <img src ="img/moon4.jpg" alt="photo-4" class="gallery__photo gallery__photo--4">
+  <img src ="img/moon2.jpg" alt="photo-2" class="gallery__photo gallery__photo--2">
+</div>
+</section>
+    <footer><!-- website footer have all the contact information that a user needed  -->
+      <div class="container" style="position:absolute; bottom:0px; left:600px; ">
+       <h6>Copyright &copy; 2022 Fay Alattas.<h6>
+            <address>
+                Contact us at <a href = "mailto:FayAlattas@gmail.com">
+                Fayalattas@gmail.com</a>
+            </address>
+          <p>  <img src="img/twitter.ico" alt="twitter" style="width:4%">
+            <a href = "https://twitter.com/fay_att?s=21">
+            Twitter</a>
+            <img src="img/insta.ico" alt="Instgram" style="width:4%">
+            <a href = "https://instagram.com/iitsshadow?r=nametag">
+            Instagram</a></p>
+<div>
+  </footer><!-- end of footer-->
+  </body>
+</html><!-- end of lunar phase page-->

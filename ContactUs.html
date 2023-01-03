@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Daily photos....">
+    <meta name="keywords"content="Photos , moon , Fullmoon , sky , clouds , books">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel ="icon" href="img/icon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+    <title>ContactUs</title>
+    <!-- here to style the header of the welcome page
+  (logo and the representive text) -->
+    <style type = "text/css">
+    input[type=text]{
+    background-color:  rgba(199, 197, 197, 0.2);
+    font-family: 'Fredoka', sans-serif;
+  }
+  input[type=name]{
+    background-color:  rgba(199, 197, 197, 0.2);
+    font-family: 'Fredoka', sans-serif;
+  }
+  input[type=date]{
+    background-color:  rgba(199, 197, 197, 0.2);
+    font-family: 'Fredoka', sans-serif;
+  }
+  input[type=email]{
+  background-color:  rgba(199, 197, 197, 0.2);
+  font-family: 'Fredoka', sans-serif;
+}
+input[type=tel]{
+background-color:  rgba(199, 197, 197, 0.2);
+font-family: 'Fredoka', sans-serif;
+}
+input[type=submit]{
+background-color:  rgba(199, 197, 197, 0.2);
+font-family: 'Fredoka', sans-serif;
+}
+input[type=reset]{
+background-color:  rgba(199, 197, 197, 0.2);
+font-family: 'Fredoka', sans-serif;
+}
+#Message{
+  background-color:  rgba(199, 197, 197, 0.2);
+  font-family: 'Fredoka', sans-serif;
+}
+#Language{background-color:  rgba(199, 197, 197, 0.2);}
+#Nationality{background-color:  rgba(199, 197, 197, 0.2);}
+    body{
+      background-image: url('img/bg.jpg');
+      background-size: cover;}
+    header{
+
+       height: 135px;
+      padding: 17px;
+      box-shadow: 0 0 5px #cccccc;
+      font-family: 'Fredoka', sans-serif ;
+    }
+    header li{
+        position:sticky;
+    display: inline;
+    height: 10vh;
+    padding-top:1px;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+
+    }
+    header nav {
+        position:sticky;
+      text-align: center;
+      position: relative;
+       top: -170px;
+    }
+
+    header li h3 {
+        position:sticky;
+    font-family: 'Lobster', cursive;;
+      position: relative;
+       top: -130px;
+       right:500px;}
+
+    header li h5 {
+        position:sticky;
+      position: relative;
+       top: -118px;
+       right:540px;
+       font-family: 'Fredoka', sans-serif;
+    }
+    header li img {
+        position:sticky;
+      width: 140px;
+      position: relative;
+       top: -20px;
+       right: -47px;
+
+    }
+    footer{
+
+      padding: 1.2px;
+      box-shadow: 0 0 2px #cccccc;
+      text-align: center;
+      color :#bbbbbb;
+      font-family: 'Fredoka', sans-serif;
+
+    }
+    </style>
+  </head>
+  <body>
+    <!-- Adding the needed information for the website header -->
+
+    <header >
+      <ul>
+        <li>  <img  src="img/CAMERA.png" hight ="130" width="150" alt ="logo" /></li>
+        <li><h3>Taken By <span><br> Fay Alattas</span></h3></li>
+        <li><h5>Get ready! you will see some memories.</h5></li>
+        <nav>
+          <div id="navbar"><!-- here a list for all the website pages links  -->
+            <li><a    href = "WelcomePage.html">Home</a></li>
+          <li><a     href = "AboutUs.html">About us</a></li>
+          <li><a    href = "ContactUS.html">Contact us</a></li>
+          <li><a    href = "LunarPhase.html">Lunar Phase</a></li>
+        </div>
+        </nav>
+      </ul>
+
+
+    </header><!--end of the header   -->
+ <!-- here a form tag to make a conract form for the users  -->
+    <form method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+  <p>
+  <label>First Name
+  <input type="text" placeholder = "firstname" name="customer_name" required>
+  </label>
+  </p>
+  <p>
+  <label>Last Name
+  <input type="text" placeholder = "lastname" name="customer_name" required>
+  </label>
+  </p>
+
+  <p>
+  <label>Email
+  <input type="email" placeholder = "email" name="email_address"required>
+  </label>
+  </p>
+
+  <p>
+  <label>Phone
+  <input type="tel" placeholder = "05#########" name="phone_number" required>
+  </label>
+  </p>
+
+
+  <p><!--choosing a birthdate  -->
+  <label>Choose Your Birthday Date
+    <input type="date" name="begin"
+         placeholder="dd-mm-yyyy" value=""
+         min="1920-01-01" max="2030-12-31" >
+  </label>
+  </p>
+
+  <p>
+  <label>Choose Your Gender
+  </label>
+  <input name = "howtosite" type = "radio"
+  value = "Female" checked>
+ <label>Female</label>
+
+ <input name = "howtosite" type = "radio"
+  value = "Male">
+  <label>Male</label>
+  </p>
+
+  <p>
+  <label>Choose Your Nationality
+  <select id="Nationality" name="Nationality"required>
+  <option value="" selected="selected">Select One</option>
+  <option value="Saudi" >Saudi</option>
+  <option value="Non-Saudi">Non-Saudi</option>
+  </select>
+  </label>
+  </p>
+
+  <p>
+  <label>Choose The Language
+  <select id="Language" name="Language"required>
+  <option value="" selected="selected">Select One</option>
+  <option value="Arabic" >Arabic</option>
+  <option value="English">English</option>
+  <option value="French">	French</option>
+  <option value="Spanish">Spanish</option>
+  <option value="Japanese">Japanese</option>
+  <option value="Turkish">Turkey</option>
+  <option value="Chinese">Chinese</option>
+
+  </select>
+  </label>
+  </p>
+ <!-- here is the message subject that the user cintact us about   -->
+  <fieldset>
+  <legend>Message Subject</legend required>
+  <p><label> <input type="radio" name="Subject" required value="Booking Photography Appointment" checked>Booking Photography Appointment </label></p>
+  <p><label> <input type="radio" name="Subject" required value="Collaborate"> Collaborate </label></p>
+  <p><label> <input type="radio" name="Subject" required value="Other"> Other </label></p>
+  </fieldset>
+
+
+  <p>
+    <h5> Enter  Your Message :</h5 required>
+    <textarea id="Message" name="message"
+            rows="5" cols="33">
+
+          </textarea>
+  </p>
+
+  <p><button type="submit" value="submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button>
+</p>
+
+  </form>
+  <footer><!-- website footer have all the contact information that a user needed  -->
+     <h6>Copyright &copy; 2022 Fay Alattas.<h6>
+          <address>
+              Contact us at <a href = "mailto:FayAlattas@gmail.com">
+              Fayalattas@gmail.com</a>
+          </address>
+        <p>  <img src="img/twitter.ico" alt="twitter" style="width:1%">
+          <a href = "https://twitter.com/fay_att?s=21">
+          Twitter</a>
+          <img src="img/insta.ico" alt="Instgram" style="width:1%">
+          <a href = "https://instagram.com/iitsshadow?r=nametag">
+          Instagram</a></p>
+
+</footer> <!-- end of footer-->
+  </body>
+</html><!-- end of the contact us page-->

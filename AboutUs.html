@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset = "utf-8">
+ <meta name="description" content="Daily photos....">
+ <meta name="keywords"content="Photos , moon , Fullmoon , sky , clouds , books">
+ <link rel="stylesheet" href="stylesheet.css">
+ <link rel ="icon" href="img/icon.ico">
+ <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+ <title>About Me</title>
+ <!-- here to style the header of the welcome page
+(logo and the representive text) -->
+ <style type = "text/css">
+ body{
+   background-image: url('img/bg.jpg');
+   background-size: cover;}
+ header{
+
+    height: 120px;
+   padding: 17px;
+   box-shadow: 0 0 5px #cccccc;
+   font-family: 'Fredoka', sans-serif ;
+ }
+ header li{
+     position:sticky;
+ display: inline;
+ height: 10vh;
+ padding-top:1px;
+ text-align: center;
+ font-family: 'Fredoka', sans-serif;
+
+ }
+ header nav {
+     position:sticky;
+   text-align: center;
+   position: relative;
+    top: -190px;
+ }
+
+ header li h3 {
+     position:sticky;
+ font-family: 'Lobster', cursive;;
+   position: relative;
+    top: -130px;
+    right:500px;}
+
+ header li h5 {
+     position:sticky;
+   position: relative;
+    top: -128px;
+    right:560px;
+    font-family: 'Fredoka', sans-serif;
+ }
+ header li img {
+     position:sticky;
+   width: 140px;
+   position: relative;
+    top: -20px;
+    right: -47px;
+
+ }
+ footer {
+position:fixed;
+left:0px;
+bottom:0px;
+height:120px;
+width:100%;
+
+}
+ </style><!-- end of style -->
+
+ </head>
+ <body>
+   <!-- Adding the needed information for the website header -->
+
+   <header>
+     <ul>
+       <li>  <img  src="img/CAMERA.png" hight ="130" width="150" alt ="logo" /></li>
+       <li><h3>Taken By <span><br> Fay Alattas</span></h3></li>
+       <li><h5>Get ready! you will see some memories.</h5></li>
+       <nav><!-- here a list for all the website pages links  -->
+         <div id="navbar">
+           <li><a    href = "WelcomePage.html">Home</a></li>
+         <li><a     href = "AboutUs.html">About us</a></li>
+         <li><a    href = "ContactUS.html">Contact us</a></li>
+         <li><a    href = "LunarPhase.html">Lunar Phase</a></li>
+       </div>
+       </nav>
+     </ul>
+   </header>
+<!-- here to center the table on the page -->
+   <center>
+ <table  border = "2" cellspacing="3" cellpadding="1" >
+ <caption>Personal information</caption>
+
+
+ <thead> <!-- here the head of the table -->
+   <tr>
+     <td rowspan="2">
+     <img src = "img/MYphoto.jpg" width = "150" alt = "Fay AlAttas Pic"></td>
+     <th>Student Name</th>
+     <th>Major</th>
+     <th>Course Number </th>
+     <th>Course Title</th>
+     <th>Credit Hours</th>
+     <th>Grade</th>
+   </tr>
+   <tr>
+
+     <td>Fay Alattas</td>
+     <td>
+       <details><!-- adding some information about software engineering as a summary -->
+           <summary>Software Engineering</summary>
+         <p> An engineering approach on a software development
+         of systematics application.A software engineer is
+          a person who applies the principles  of software engineering
+           to design, develop, maintain, test, and evaluate computer software.</p>
+           </details></td>
+     <td>CCSW321</td>
+     <td>Web Development</td>
+     <td>3 hours</td>
+     <td>4.6 out of 5</td>
+   </tr>
+ </thead>
+ <tbody>
+   <colgroup>
+     <col style="background-color:rgba(199, 197, 197, 0.2)">
+   </colgroup>
+ </tbody>
+<tfoot>
+     <tr>
+       <td colspan="7"> <strong>8th Semester </strong></td>
+     </tr>
+   </tfoot>
+ </table><!-- end of the table -->
+ </center>
+
+ <footer ><!-- website footer have all the contact information that a user needed  -->
+       <div class="container" style="position:absolute; bottom:0px; left:600px;">
+    <h6>Copyright &copy; 2022 Fay Alattas.<h6>
+         <address>
+             Contact us at <a href = "mailto:FayAlattas@gmail.com">
+             Fayalattas@gmail.com</a>
+         </address>
+       <p>  <img src="img/twitter.ico" alt="twitter" style="width:4%">
+         <a href = "https://twitter.com/fay_att?s=21">
+         Twitter</a>
+         <img src="img/insta.ico" alt="Instgram" style="width:4%">
+         <a href = "https://instagram.com/iitsshadow?r=nametag">
+         Instagram</a></p>
+<div>
+</footer> <!-- end of the footer  -->
+   </body>
+  </html><!-- end of the about us page  -->

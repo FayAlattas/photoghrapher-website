@@ -1,0 +1,191 @@
+/*
+the basics for the body structure style
+*/
+body{
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  padding:0;
+  margin:0;
+  font-family: 'Fredoka', sans-serif ;
+}
+/*
+main tag styling
+ */
+main section{
+  right: 706px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+/*
+styling for the aside tag for the picture and events
+*/
+aside{
+    position: relative;
+    top:-490;
+    width: 20%;
+    height: 80%;
+    padding-left: 5px;
+    margin-left: 5px;
+    float: right;
+    font-style: italic;
+    font-family: 'Fredoka', sans-serif;
+  }
+/*
+this a style for the first article that contains the web overview
+ */
+#article1 {
+  width: 700px;
+text-align: left;
+position: relative;
+ top: 35px;
+ left:540px;
+}
+/*
+here for only the h4 text
+*/
+#article1 h4{
+  font-style: italic;
+  position: relative;
+top:-20px;
+   left:55px;
+   color: #B6B6B6;
+}
+/*
+syling the lists
+*/
+#article2{
+padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 2px #cccccc;
+  border-width: thin;
+  height: 350px;
+  width: 420px;
+  position: relative;
+  bottom:-163px;
+  right:-300px;
+  background-color:rgba(199, 197, 197, 0.2);
+}
+/*
+styling the figure with the figure caption also
+ */
+#article3{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 0 0 2px #cccccc;
+  border-width: thin;
+  height: 350px;
+  width: 420px;
+  position: relative;
+  bottom:227px;
+  right:-800px;
+background-color:rgba(199, 197, 197, 0.2);
+}
+/*
+center the form on the page
+ */
+form{
+  text-align:center;
+}
+/*
+some styling for the about us table
+ */
+table {
+text-align: center;
+width: 200px;
+position: relative;
+ top: 120px;
+ right: -47px;
+}
+/*
+here is to style the whole gallery specification
+ */
+.gallery{
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+bottom: 70px;
+}
+/*
+styling for the photos specification */
+.gallery__photo{
+  width: 25%;
+  border-radius: 2px;
+  box-shadow: 0 20px 40px #cccccc;
+  position: absolute;
+  z-index: 10;
+  outline-offset: 20px;
+  transition: all 0.3s;
+}
+/*
+positioning the 1st photo
+*/
+.gallery__photo--1{
+top:0;
+left:0;
+}
+/*
+positioning the 2nd photo
+*/
+.gallery__photo--3{
+  top:0;
+  right:0;
+  z-index: 1;
+}
+/* positioning the 3rd photo
+*/
+.gallery__photo--5{
+  top:60px;
+left:40%;
+}
+/*
+positioning the 4th photo
+*/
+.gallery__photo--4{
+  top:40px;
+  right:20%;
+}
+/*
+positioning the 5th photo
+ */
+.gallery__photo--2{
+  top:40px;
+  right:60%;
+  z-index: 2;
+}
+/*
+animated the photos gallery
+*/
+.gallery__photo:hover{
+  outline: 15px solid #dddddd;
+transform: scale(1.05)translateY(-20px);
+z-index: 20;
+}
+/*
+syling the information about the page
+*/
+.lunar{
+  color:#999999;
+  text-align: center;
+  padding-bottom: 65px;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+}
+/*
+style the transformation for the photos
+*/
+.gallery:hover .gallery__photo:not(:hover){
+  transform:scale(0.9);
+}
+/*
+styling code for the footer of the pages
+*/
+footer{
+  padding: 1.2px;
+  box-shadow: 0 0 2px #cccccc;
+  text-align: center;
+  color :#bbbbbb;
+  font-family: 'Fredoka', sans-serif;
+}
